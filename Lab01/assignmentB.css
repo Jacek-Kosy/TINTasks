@@ -18,3 +18,12 @@ header {
     font-family: "Comic Sans MS", sans-serif;
     font-size: x-large;
 }
+table, th, td {
+    border: 2px solid cadetblue;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: square;
+}
