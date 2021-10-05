@@ -1,6 +1,20 @@
-paragraphOne {
-    font-family: Arial, serif;
-}
 header {
     font-family: "Britannic Bold", serif;
+    font-size: x-large;
+}
+.p1 {
+    font-family: Arial, serif;
+    font-size: large;
+}
+.p2 {
+    font-family: Bahnschrift, sans-serif;
+    font-size: xx-large;
+}
+.p3 {
+    font-family: "Baskerville Old Face", sans-serif;
+    font-size: large;
+}
+.p4 {
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: x-large;
 }
