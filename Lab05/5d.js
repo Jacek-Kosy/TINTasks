@@ -17,6 +17,9 @@ function studentConstructor(firstName, lastName, gradesArray) {
             this.setFirstName = names[0]
             this.setLastName = names[1]
         },
+        get getFullName() {
+            return this.firstName + " " + this.lastName
+        }
     }
 }
 let student = studentConstructor('Jan', 'Kowalski', [2, 3, 4, 5, 3, 4, 2, 3])
@@ -24,6 +27,5 @@ console.log(student.firstName)
 console.log(student.lastName)
 console.log(student.getGradeAverage())
 student.setFullName = 'Anna Nowak'
-console.log(student.firstName)
-console.log(student.lastName)
+console.log(student.getFullName)
 console.log(student.getGradeAverage())
